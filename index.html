@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
       <title>AKAN NAMES!</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+          <style>
+            body{
+              background-image: url("image/images.jpeg");
+              }
+          </style> 
   </head>
     <body>
-      <div class="row">
-        <div class="col-md-7">
-          <h>Akan Names</h>
-            <p>Akan is one of the ethnic groups in Ghana along the West Coast of Africa.
-               As we all know ethnic groups have some cultural ways of doing things. For 
-               instance, the Akan have a naming culture. Individuals of the Akan are 
-               given names based on the day of the week they were born, but differ in 
-               accordance with gender. Here's a list of the names.</p>
-               <table>
+     
+       <h>Akan Names</h>
+            <p>Akan is an ethnic group in Ghana along West African Coast. The Akan
+               have an interesting way of giving names. They give names in accordance 
+               to the day of the week one was born and gender. Below are tables of 
+               the naming lists.
+              </p>
+      
+         <div class="row">
+            <div class="col-md-6">
+                <table>
                  <th>DAY OF THE WEEK</th>
                  <th>MALE AKAN NAMES</th>
                  <tr>
@@ -45,63 +53,79 @@
                   <td>Saturday</td>
                   <td>Kwame</td>
                 </tr>
-              </table> 
-              <table>
-                <th>DAY OF THE WEEK</th>
-                <th>FEMALE AKAN NAMES</th>
-                <tr>
-                  <td>Sunday</td>
-                  <td>Akosua</td>
-                </tr>
-                <tr>
-                 <td>Monday</td>
-                 <td>Adwoa</td>
-               </tr>
-               <tr>
-                 <td>Tuesday</td>
-                 <td>Abenaa</td>
-               </tr>
-               <tr>
-                 <td>Wednesday</td>
-                 <td>Akua</td>
-               </tr>
-               <tr>
-                 <td>Thursday</td>
-                 <td>Yaa</td>
-               </tr>
-               <tr>
-                 <td>Friday</td>
-                 <td>Afua</td>
-               </tr>
-               <tr>
-                 <td>Saturday</td>
-                 <td>Ama</td>
-               </tr>
-             </table> 
+              </table>
+            </div>
+              <div class="col-md-6">  
+                <table>
+                    <th>DAY OF THE WEEK</th>
+                    <th>FEMALE AKAN NAMES</th>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>Akosua</td>
+                    </tr>
+                    <tr>
+                    <td>Monday</td>
+                    <td>Adwoa</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>Abenaa</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>Akua</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>Yaa</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>Afua</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>Ama</td>
+                  </tr>
+               </table> 
+              </div> 
+          </div>
+        
+           
+        <form>
+          <p>Below is an application form which is a simple demonstration of the naming 
+            system. The form requires the applicant to enter their gender and date
+            of birth. The collected information would be used to determine the 
+            Akan name the applicant would have parse. The formula ((CC/4)-2*CC-1)+(5*YY/4)
+            +(26*((MM+1)/10))+DD mod 7 to determine the day of the week afterwards your 
+            gender would determine the table of names to be used to select your Akan name.
+          </p> 
+          
+              <label>Name
+                <input type="text" required>
+                <span></span>
+              </label><br>
+                  <label>D.O.B
+                    <input type="text" required>
+                    <span></span>
+                  </label><br>
+                    <label>Gender
+                      <select name="Gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select> 
+                    </label><br>
+                    <button>SUBMIT</button>
+                    <button>Cancel</button><br>
+                    <label>Findings
+                      <input type="text">
+                      <span></span>
+                      </label>
 
+                    
+          </form>
 
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     </body>
+          <script src="js/scripts.js"></script>
+     
+    </body>
 </html>
