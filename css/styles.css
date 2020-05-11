@@ -2,18 +2,31 @@ table, th, td{
     border: 2px  solid purple;
     border-collapse: collapse;
     width: 50%;
+    
 }
 body{
     background-repeat: repeat;
     font-family: sans-serif;
-    font-size: larger;
-    font-style: italic;
-    color: black;
+    font-size: large;
+    font-style: oblique;
+    
 }
 td{
     text-align: center;
     color: royalblue;
 }
+input[type=text] {
+    padding:2px;
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+    
+}
+input[type=box] {
+    padding:2px;
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+}
+
 
 
 
