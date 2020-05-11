@@ -1,7 +1,7 @@
-Project name: Akan Names
-Project  description: An interactive web application.
-Author: Emmanuel Orega
-SET UP INSTRUCTIONS
+- Project name: Akan Names
+- Project  description: An interactive web application.
+- Author: Emmanuel Orega
+- SET UP INSTRUCTIONS
 - Create a folder for your project.
 - In the folder, create a folder of "css" where "styles.css" and "bootstrap.css" files are also created.
 - In "bootstrap.css", copy and paste a css file of bootstrap from bootstrap website or where you have in your 
