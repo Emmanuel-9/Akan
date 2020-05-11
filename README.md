@@ -25,6 +25,6 @@
 - The technologies used are HTML, CSS and JavaScript.
 - CONTACT INFO
    Email:oregadaniel181@gmail.com
-- Link: https://emmanuel-9.github.io/Akan-Names/
+
  
   
