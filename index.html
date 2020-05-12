@@ -100,29 +100,26 @@
             +(26*((MM+1)/10))+DD mod 7 to determine the day of the week afterwards your 
             gender would determine the table of names to be used to select your Akan name.
           </p> 
-            <form>
-              <label>Name
-                <input type="text" required>
-                
-              </label><br>
-                  <label>D.O.B
-                    <input type="date" required>
-                  </label><br>
-                    <label>Gender
-                      <select name="Gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                      </select> 
-                      </label><br>
-                        <button>SUBMIT</button>
-                        <button>Cancel</button><br>
-                          <label>Findings
-                             <input type="text">
-                          </label><br>
-                            <label>Leave a comment:
-                              <input type="box">
-                            </label> 
-              </form>
+          <form>
+            <div class="form-group">
+                <label for="InputYear">Year Born:</label>
+                <input type="text" id="year" placeholder="Year of Birth" required>
+            </div>
+            <div class="form-group">
+                <label for="InputMonth">Month Born:</label>
+                <input type="text" id="month" placeholder="Enter month you were born" required>
+            </div>
+            <div class="form-group">
+                <label for="InpuDayBorn">Day of the Month:</label>
+                <input type="text" id="Day" placeholder="Enter day you were born" required>
+            </div>
+            <div class="radio">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="male" id="gender" value="Male"><span>Male</span><br>
+                <input type="radio" name="female" value="Female"><span>Female</span><br>
+                    <input class="bg-success" type="submit" onclick="giveAkanName()" value="Findings!">
+            </div>
+        </form>
 
           <script src="js/scripts.js"></script>
      
