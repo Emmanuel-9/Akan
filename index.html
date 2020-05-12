@@ -100,7 +100,7 @@
             +(26*((MM+1)/10))+DD mod 7 to determine the day of the week afterwards your 
             gender would determine the table of names to be used to select your Akan name.
           </p> 
-          <form>
+          <form >
             <div class="form-group">
                 <label for="InputYear">Year Born:</label>
                 <input type="text" id="year" placeholder="Year of Birth" required>
@@ -116,8 +116,8 @@
             <div class="radio">
                 <label for="gender">Gender</label><br>
                 <input type="radio" name="male" id="gender" value="Male"><span>Male</span><br>
-                <input type="radio" name="female" value="Female"><span>Female</span><br>
-                    <input class="bg-success" type="submit" onclick="giveAkanName()" value="Findings!">
+                <input type="radio" name="female" id="gender" value="Female"><span>Female</span><br>
+                    <input class="bg-success" type="submit" id="find" onclick="getAkanName()" value="Result!">
             </div>
         </form>
 
