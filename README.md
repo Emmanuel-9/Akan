@@ -1,7 +1,7 @@
- Project name: Akan Names
- Project  description: An interactive web application.
- Author: Emmanuel Orega
- SET UP INSTRUCTIONS
+ # Project name: Akan Name Identifier
+ ## Project  description: An interactive web application.
+ ### Author: Emmanuel Orega
+ #### SET UP INSTRUCTIONS
 - Create a folder for your project.
 - In the folder, create a folder of "css" where "styles.css" and "bootstrap.css" files are also created.
 - In "bootstrap.css", copy and paste a css file of bootstrap from bootstrap website or where you have in your 
@@ -18,12 +18,12 @@
 - Always ensure changes made are always commited.
 - For this project, the behavior driven development was used in testing how the input given would be processed
   to give the desired output.
-- For this type of development, there are certain rules usually considered:
-   1. The behavior that we will need to write code to handle. 
-   2. A sample of input that would be demonstrate the behavior.
-   3. Expected output that we would get when code is working correctly.
-- The technologies used are HTML, CSS and JavaScript.
-- CONTACT INFO
+ For this type of development, there are certain rules usually considered:
+   * The behavior that we will need to write code to handle. 
+   * A sample of input that would be demonstrate the behavior.
+   * Expected output that we would get when code is working correctly.
+ The technologies used are: HTML, CSS and JavaScript.
+ ###### CONTACT INFO
    Email:oregadaniel181@gmail.com
   
 
