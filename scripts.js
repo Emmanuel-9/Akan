@@ -8,7 +8,7 @@ function getAkanName(){
     var MM =parseInt(monthOfBirth);
     var yearOfBirth = document.getelementbyid("year").value;
     var YY = parseInt(yearOfBirth);
-    var CC = parseInt(Math.round(YY/100+1));
+    var CC = Math.round((YY-1)/100+1);
     var dayCalculator = parseInt(((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM/10))+DD)%7;
 
 
@@ -25,52 +25,52 @@ function getAkanName(){
 
     }else if (Math.round(dayCalculator) == 0 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[0] + " with an Akan name of " + maleAkanNames[0]);
+        alert("Your day of birth is " + "days[0] " + " with an Akan name of " + "maleAkanNames[0]");
     }else if (Math.round(dayCalculator) == 1 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[1] + " with an Akan name of " + maleAkanNames[1]);
+        alert("Your day of birth is " + "days[1] " + " with an Akan name of " + "maleAkanNames[1]");
     }else if (Math.round(dayCalculator) == 2 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[2] + " with an Akan name of " + maleAkanNames[2]);
+        alert("Your day of birth is " + "days[2] " + " with an Akan name of " + "maleAkanNames[2]");
     }else if (Math.round(dayCalculator) == 3 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[3] + " with an Akan name of " + maleAkanNames[3]);
+        alert("Your day of birth is " + "days[3] " + " with an Akan name of " + "maleAkanNames[3]");
     }else if (Math.round(dayCalculator) == 4 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[4] + " with an Akan name of " + maleAkanNames[4]);
+        alert("Your day of birth is " + "days[4] " + " with an Akan name of " + "maleAkanNames[4]");
     }else if (Math.round(dayCalculator) == 0 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[0] + " with an Akan name of " + maleAkanNames[5]);
+        alert("Your day of birth is " + "days[0] " + " with an Akan name of " + "maleAkanNames[5]");
     }else if (Math.round(dayCalculator) == 0 && gender === "male"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[0] + " with an Akan name of " + maleAkanNames[6]);
+        alert("Your day of birth is " + "days[0] " + " with an Akan name of " + "maleAkanNames[6]");
     }else if (Math.round(dayCalculator) == 0 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[0] + " with an Akan name of " + femaleAkanNames[0]);
+        alert("Your day of birth is " + "days[0] " + " with an Akan name of " + "femaleAkanNames[0]");
     }else if (Math.round(dayCalculator) == 1 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[1] + " with an Akan name of " + femaleAkanNames[1]);
+        alert("Your day of birth is " + "days[1] " + " with an Akan name of " + "femaleAkanNames[1]");
     }else if (Math.round(dayCalculator) == 2 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[2] + " with an Akan name of " + femaleAkanNames[2]);
+        alert("Your day of birth is " + "days[2] " + " with an Akan name of " + "femaleAkanNames[2]");
     }else if (Math.round(dayCalculator) == 3 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[3] + " with an Akan name of " + femaleAkanNames[3]);
+        alert("Your day of birth is " + "days[3] " + " with an Akan name of " + "femaleAkanNames[3]");
     }else if (Math.round(dayCalculator) == 4 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[4] + " with an Akan name of " + femaleAkanNames[4]);
+        alert("Your day of birth is " + "days[4] " + " with an Akan name of " + "femaleAkanNames[4]");
     }else if (Math.round(dayCalculator) == 5 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[5] + " with an Akan name of " + femaleAkanNames[5]);
+        alert("Your day of birth is " + "days[5] " + " with an Akan name of " + "femaleAkanNames[5]");
     }else if (Math.round(dayCalculator) == 6 && gender === "female"){
         document.getElementById("find").innerHTML =
-        alert("Your day of birth is " + days[6] + " with an Akan name of " + femaleAkanNames[6]);
+        alert("Your day of birth is " + "days[6] " + " with an Akan name of " + "femaleAkanNames[6]");
     }else{
-        document.getElementById("find").innerHTML = 
         alert("Please check your details!");
     }
 
 }
+
     
     
 
